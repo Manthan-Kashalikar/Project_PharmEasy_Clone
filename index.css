@@ -1,0 +1,200 @@
+body {
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+
+    /* z-index: 1;
+    position: fixed; */
+
+    top: 0%;
+    margin: auto;
+    background-color: #10847e;
+    padding-top: 1%;
+}
+
+#logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    font-size: 70px;
+    top: 15.188;
+
+    background-color: rgb(255, 255, 255);
+    margin-left: 5%;
+    /* margin-top:1%; */
+    position: absolute;
+    text-align: center;
+    color: #10847e;
+    animation: revolve 20s infinite;
+}
+
+#logo:hover {
+    background-color: rgb(54, 27, 27);
+
+}
+
+@keyframes revolve {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    25% {
+        transform: rotate(20deg)
+    }
+
+    50% {
+        transform: rotate(0deg)
+    }
+
+    75% {
+        transform: rotate(-20deg)
+    }
+
+    100% {
+        transform: rotate(0deg)
+    }
+}
+
+#searchbox {
+    width: 800px;
+    height: 40px;
+    margin-left: 350px;
+    border-radius: 10px;
+    float: left;
+    background-color: #ffffff;
+    /* border: 1mm solid red; */
+}
+
+#pincode {
+    float: left;
+    width: 200px;
+    height: 20.5px;
+    /* text-align: center; */
+    border-right: 0.5mm solid grey;
+
+    padding: 9px;
+}
+
+#search {
+    float: left;
+    width: 550px;
+    text-align: center;
+    padding: 9px;
+}
+
+#offertab {
+    width: 1000px;
+    height: 35px;
+    margin-left: 290px;
+    
+    margin-top: 15px;
+    border-radius: 10px;
+    float: left;
+    /* background-color: #ffffff; */
+    /* border: 1mm solid red; */
+}
+.ofr{
+    width: 210px;
+    height: 25px;
+    padding-top: 5px;
+    font-size: 20px;
+    padding-left: 18px;
+    text-align: center;
+    color: #ffffff;
+    /* border: 1mm solid red; */
+    display: inline-block;
+}
+
+
+.signing {
+    float: right;
+    display: inline;
+    height: 22px;
+}
+
+#sign {
+    margin-top: 5px;
+    display: inline;
+    margin-right: 20px;
+    float: left;
+
+}
+
+
+#sign>a {
+    color: #ffffff;
+    background-color: #15504d;
+    border: 0.5mm solid black;
+
+
+    border-radius: 25.0%;
+    text-align: center;
+    padding: 4px;
+
+
+}
+
+#sign>a:hover {
+    background-color: white;
+
+    color: #15504d;
+    font-weight: bold;
+
+    display: inline-block;
+}
+
+#cart {
+    margin-top: 5px;
+    margin-right: 20px;
+    float: left;
+    display: inline;
+
+}
+
+#cart>a {
+    color: #ffffff;
+    background-color: #15504d;
+    border: 0.5mm solid black;
+
+    border-radius: 25.0%;
+    text-align: center;
+    padding: 4px;
+
+}
+
+#cart>a:hover {
+    background-color: white;
+
+    color: #15504d;
+    font-weight: bold;
+
+    display: inline-block;
+}
+#advertise{
+    /* border: 1mm solid black; */
+    height: 350px;
+    width: auto;
+    background-image: url("https://cms-contents.pharmeasy.in/banner/f0d48aa1926-Dweb.jpg");
+    background-size: 100% 350px;
+    background-repeat: no-repeat;
+}
+#ordernow{
+    border: 1mm solid red;
+    height: 250px;
+    width: auto;
+
+    /* padding: auto; */
+}
+.orbox{
+    border: 1mm solid chocolate;
+    height: 200px;
+    width: 450px;
+    margin: 20px;
+    float: left;
+}
